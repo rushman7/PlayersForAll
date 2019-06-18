@@ -1,8 +1,8 @@
 const dummyData = [
     {
         username: "twitch",
-        thumbnailUrl: 'https://cdn-images-1.medium.com/max/1200/1*JpEvZD1Wfo5GvUzdTWsJzQ.png',
-        imageUrl: 'https://dotesports-media.nyc3.cdn.digitaloceanspaces.com/wp-content/uploads/2018/08/11120419/e991f93e-4ec8-4e4d-8db3-c2384b166abe.png',
+        icon: 'https://cdn-images-1.medium.com/max/1200/1*JpEvZD1Wfo5GvUzdTWsJzQ.png',
+        image: 'https://dotesports-media.nyc3.cdn.digitaloceanspaces.com/wp-content/uploads/2018/08/11120419/e991f93e-4ec8-4e4d-8db3-c2384b166abe.png',
         likes: 4307,
         timestamp: "July 15th 2017, 03:12:09 pm",
         comments: [
@@ -26,8 +26,8 @@ const dummyData = [
     },
     {
         username: "playhearthstone",
-        thumbnailUrl: 'http://casaveneziausa.com/wp-content/uploads/parser/hearthstone-logo-1.png',
-        imageUrl: 'http://logo-load.com/uploads/posts/2017-02/hearthstone-logo.jpg',
+        icon: 'http://casaveneziausa.com/wp-content/uploads/parser/hearthstone-logo-1.png',
+        image: 'http://logo-load.com/uploads/posts/2017-02/hearthstone-logo.jpg',
         likes: 5306,
         timestamp: "July 14th 2017, 10:04:08 am",
         comments: [

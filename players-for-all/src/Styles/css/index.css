@@ -49,9 +49,17 @@ button:disabled {
   font-size: calc(10px + 2vmin);
   color: white;
 }
-.post_container {
+.post-container {
   background: white;
   width: 80%;
   margin: auto;
   border: 1px solid black;
+}
+.user-icon {
+  width: 30px;
+  margin: 10px;
+  border-radius: 50%;
+}
+.post-image img {
+  width: 100%;
 }
