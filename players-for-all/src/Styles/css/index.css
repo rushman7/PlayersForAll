@@ -1,0 +1,57 @@
+html {
+  font-size: 62.5%;
+  position: relative;
+  min-height: 100%;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  background: #282c34;
+}
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  width: 12px;
+}
+html::-webkit-scrollbar-thumb,
+body::-webkit-scrollbar-thumb {
+  background: white;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+html::-webkit-scrollbar-track,
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: white;
+}
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+button {
+  cursor: pointer;
+}
+button:hover {
+  transform: scale(1.1);
+}
+button:disabled {
+  cursor: default;
+}
+.App {
+  text-align: center;
+  height: 100vh;
+}
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.post_container {
+  background: white;
+  width: 80%;
+  margin: auto;
+  border: 1px solid black;
+}
