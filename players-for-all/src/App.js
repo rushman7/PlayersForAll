@@ -19,7 +19,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-            PlayersForAll
+            _
         </header>
         <PostFeed data={this.state.data} today={this.state.today}/>
       </div>
